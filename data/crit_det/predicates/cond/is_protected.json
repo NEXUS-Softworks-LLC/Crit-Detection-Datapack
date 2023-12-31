@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "crit_det:cond/protected/player"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "crit_det:cond/protected/mob"
+      }
+    ]
+  }
+  

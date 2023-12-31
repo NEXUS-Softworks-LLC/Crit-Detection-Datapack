@@ -1,0 +1,4 @@
+execute store result score armor_1 cd.math run data get entity @e[tag=cd.victim,sort=nearest,limit=1] ArmorItems[3].tag.Enchantments[{id:"minecraft:protection"}].lvl
+execute store result score armor_2 cd.math run data get entity @e[tag=cd.victim,sort=nearest,limit=1] ArmorItems[2].tag.Enchantments[{id:"minecraft:protection"}].lvl
+execute store result score armor_3 cd.math run data get entity @e[tag=cd.victim,sort=nearest,limit=1] ArmorItems[1].tag.Enchantments[{id:"minecraft:protection"}].lvl
+execute store result score armor_4 cd.math run data get entity @e[tag=cd.victim,sort=nearest,limit=1] ArmorItems[0].tag.Enchantments[{id:"minecraft:protection"}].lvl
