@@ -1,0 +1,26 @@
+{
+    "values":[
+        "#crit_det:zombies",
+        "creeper",
+        "#skeletons",
+        "blaze",
+        "endermite",
+        "enderman",
+        "magma_cube",
+        "piglin",
+        "piglin_brute",
+        "pillager",
+        "ravager",
+        "slime",
+        "tnt",
+        "witch",
+        "wolf",
+        "zoglin",
+        "spider",
+        "cave_spider",
+        "zombified_piglin"
+
+
+    ]
+
+}

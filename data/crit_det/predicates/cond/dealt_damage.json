@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "soge.damagedealt_abs": {
+          "min": 1,
+          "max": 999999
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "soge.damagedealt": {
+          "min": 1,
+          "max": 999999
+        }
+      }
+    }
+  ]
+}
