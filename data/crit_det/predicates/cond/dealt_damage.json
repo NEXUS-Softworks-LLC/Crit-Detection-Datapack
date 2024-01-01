@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_scores",
       "entity": "this",
       "scores": {
-        "soge.damagedealt_abs": {
+        "cd.damagedealt_abs": {
           "min": 1,
           "max": 999999
         }
@@ -15,7 +15,7 @@
       "condition": "minecraft:entity_scores",
       "entity": "this",
       "scores": {
-        "soge.damagedealt": {
+        "cd.damagedealt": {
           "min": 1,
           "max": 999999
         }

@@ -10,6 +10,7 @@ execute store result score @s cd.dmg run execute if score dealt cd.math > expect
 # set cd.falling to 1 if player's FallDistance >= 0.1
 execute store result score @s cd.falling run data get entity @s FallDistance 10
 execute store result score @s cd.falling run execute if score @s cd.falling >= 1 cd.math
+
 # check if player is allowed to do a crit
 execute store result score @s cd.cond run execute if predicate crit_det:cond/crit
 

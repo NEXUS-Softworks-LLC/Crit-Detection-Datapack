@@ -52,8 +52,8 @@ execute at @s as @e[tag=cd.victim,sort=nearest,limit=1] if predicate crit_det:co
 # tellraw @s [{"text":"res expected = ","color":"white"},{"score":{"name":"expected","objective":"cd.math"},"color":"gold"}]
 
 #> get combined dealt damage
-scoreboard players operation dealt cd.math += @s soge.damagedealt
-scoreboard players operation dealt cd.math += @s soge.damagedealt_abs
+scoreboard players operation dealt cd.math += @s cd.damagedealt
+scoreboard players operation dealt cd.math += @s cd.damagedealt_abs
 
 # tellraw @s ["D ",{"score":{"name":"@s","objective":"soge.damagedealt"},"color":"gold"}," DAB ",{"score":{"name":"@s","objective":"soge.damagedealt_abs"},"color":"gold"}]
 
